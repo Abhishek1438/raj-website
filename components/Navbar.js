@@ -1,5 +1,3 @@
-'use client';
-
 import React, { useEffect, useState, useContext } from 'react';
 import classes from './Navbar.module.css';
 import Logo from './Logo';
