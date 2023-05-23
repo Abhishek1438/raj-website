@@ -66,13 +66,13 @@ const Navbar = () => {
         </li>
 
         <li className={linksClasses.join(' ')}>
-          <Link href="/enquire">
+          <Link href="/Enquire">
             <button className={classes.loginButton}>Enquire Now</button>
           </Link>
         </li>
 
         <li className={linksClasses.join(' ')}>
-          <Link href="tel:9983478517">
+          <Link href="tel:9982478517">
             <button className={classes.joinButton}>
               <lord-icon
                 src="https://cdn.lordicon.com/tftaqjwp.json"
