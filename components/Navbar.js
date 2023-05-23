@@ -53,20 +53,28 @@ const Navbar = () => {
       </div>
       <ul className={navLinksClasses.join(' ')}>
         <li className={linksClasses.join(' ')}>
-          <a href="/">Home</a>
+          <Link href="/" onClick={hamburgerClicked}>
+            Home
+          </Link>
         </li>
         <li className={linksClasses.join(' ')}>
-          <a href="/compose">Services</a>
+          <Link href="/#services" onClick={hamburgerClicked}>
+            Services
+          </Link>
         </li>
         <li className={linksClasses.join(' ')}>
-          <a href="/blogs">Process</a>
+          <Link href="/blogs" onClick={hamburgerClicked}>
+            Process
+          </Link>
         </li>
         <li className={linksClasses.join(' ')}>
-          <a href="/contact">Contact Us</a>
+          <Link href="/contact" onClick={hamburgerClicked}>
+            Contact Us
+          </Link>
         </li>
 
         <li className={linksClasses.join(' ')}>
-          <Link href="/Enquire">
+          <Link href="/Enquire" onClick={hamburgerClicked}>
             <button className={classes.loginButton}>Enquire Now</button>
           </Link>
         </li>

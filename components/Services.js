@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 const Services = () => {
   return (
-    <div className={classes.services}>
+    <div className={classes.services} id="services">
       <h3>Our Services</h3>
       <p className={classes.sectionLead}>
         Reliable and Professional Shifting Services: Streamlining Your Domestic and Commercial
