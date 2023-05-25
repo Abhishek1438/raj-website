@@ -34,7 +34,7 @@ const Footer = () => {
           <Link href="#">Warehousing</Link>
         </div>
       </div>
-      <div className={classes.contactUs}>
+      <div className={classes.contactUs} id="contact">
         <h2>Contact Us</h2>
         <div className={classes.directContactContainer}>
           <ul className={classes.contactList}>
@@ -46,8 +46,8 @@ const Footer = () => {
             <li className={classes.listItem}>
               <FontAwesomeIcon icon={faPhone} size="sm" />
               <span className={`${classes.contactText} ${classes.phone}`}>
-                <a href="9660392551" title="Give me a call">
-                  9660392551
+                <a href="tel:9982478517" title="Give me a call">
+                  9982478517
                 </a>
               </span>
             </li>

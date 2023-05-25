@@ -23,7 +23,7 @@ const Services = () => {
       </p>
       <div className={classes.servicesGrid}>
         <div className={`${classes.service} ${classes.service1}`}>
-          <FontAwesomeIcon icon={faBoxOpen} size="lg" />
+          <FontAwesomeIcon icon={faBoxOpen} size="3x" style={{ color: '#42b7ca' }} />
           <h4>Domestic Shifting</h4>
           <p>
             This service involves the relocation of household or office items within the same
@@ -36,7 +36,7 @@ const Services = () => {
         </div>
 
         <div className={`${classes.service} ${classes.service2}`}>
-          <FontAwesomeIcon icon={faHouse} size="lg" />
+          <FontAwesomeIcon icon={faHouse} size="3x" style={{ color: '#425fca' }} />
           <h4>Household Shifting</h4>
           <p>
             This service is specifically tailored for individuals or families who are moving their
@@ -49,7 +49,7 @@ const Services = () => {
         </div>
 
         <div className={`${classes.service} ${classes.service3}`}>
-          <FontAwesomeIcon icon={faBuilding} size="lg" />
+          <FontAwesomeIcon icon={faBuilding} size="3x" style={{ color: '#9c42ca' }} />
           <h4>Office Shifting</h4>
           <p>
             Office shifting service helps businesses relocate their office space to a new location.
@@ -62,7 +62,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service1}`}>
-          <FontAwesomeIcon icon={faCarSide} size="lg" />
+          <FontAwesomeIcon icon={faCarSide} size="3x" style={{ color: '#42b7ca' }} />
           <h4>Car Shifting</h4>
           <p>
             Car shifting service is focused on transporting vehicles, such as cars or motorcycles,
@@ -74,7 +74,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service2}`}>
-          <FontAwesomeIcon icon={faTruckMoving} size="lg" />
+          <FontAwesomeIcon icon={faTruckMoving} size="3x" style={{ color: '#425fca' }} />
           <h4>Corporate Shifting</h4>
           <p>
             Corporate shifting service is designed for large-scale corporate relocations, involving
@@ -87,7 +87,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service3}`}>
-          <FontAwesomeIcon icon={faMapLocationDot} size="lg" />
+          <FontAwesomeIcon icon={faMapLocationDot} size="3x" style={{ color: '#9c42ca' }} />
           <h4>Local Shifting</h4>
           <p>
             Local shifting service caters to individuals or businesses relocating within the same
@@ -99,7 +99,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service1}`}>
-          <FontAwesomeIcon icon={faCartFlatbedSuitcase} size="lg" />
+          <FontAwesomeIcon icon={faCartFlatbedSuitcase} size="3x" style={{ color: '#42b7ca' }} />
           <h4>Storage Shifting</h4>
           <p>
             This service is for individuals or businesses that require temporary or long-term
@@ -112,7 +112,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service2}`}>
-          <FontAwesomeIcon icon={faBoxOpen} size="lg" />
+          <FontAwesomeIcon icon={faBoxOpen} size="3x" style={{ color: '#425fca' }} />
           <h4>Parcel Shifting</h4>
           <p>
             Parcel shifting service focuses on the transportation of smaller items or parcels from
@@ -124,7 +124,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service3}`}>
-          <FontAwesomeIcon icon={faBuilding} size="lg" />
+          <FontAwesomeIcon icon={faBuilding} size="3x" style={{ color: '#9c42ca' }} />
           <h4>Factory Relocation</h4>
           <p>
             Factory relocation service is aimed at businesses or industries that need to move their
@@ -137,7 +137,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service1}`}>
-          <FontAwesomeIcon icon={faWarehouse} size="lg" />
+          <FontAwesomeIcon icon={faWarehouse} size="3x" style={{ color: '#42b7ca' }} />
           <h4>Warehousing</h4>
           <p>
             Warehousing service offers storage and inventory management solutions for businesses
@@ -149,7 +149,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service2}`}>
-          <FontAwesomeIcon icon={faBucket} size="lg" />
+          <FontAwesomeIcon icon={faBucket} size="3x" style={{ color: '#425fca' }} />
           <h4>Bulk/Commercial Movements</h4>
           <p>
             This service is designed for businesses that require large-scale or bulk transportation

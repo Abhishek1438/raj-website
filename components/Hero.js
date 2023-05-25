@@ -23,7 +23,7 @@ const Hero = () => {
           </Link>
         </div>
         <div className={classes.heroText}>
-          <h1>Raj Packers And Movers</h1>
+          <h1>Rajasthan Packers And Movers</h1>
           <p>
             Simplify Your Relocation Journey with Our Trusted Packers and Movers: Effortless Moving
             Solutions for a Smooth Transition

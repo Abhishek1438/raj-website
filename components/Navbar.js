@@ -63,12 +63,12 @@ const Navbar = () => {
           </Link>
         </li>
         <li className={linksClasses.join(' ')}>
-          <Link href="/blogs" onClick={hamburgerClicked}>
+          <Link href="/#process" onClick={hamburgerClicked}>
             Process
           </Link>
         </li>
         <li className={linksClasses.join(' ')}>
-          <Link href="/contact" onClick={hamburgerClicked}>
+          <Link href="/#contact" onClick={hamburgerClicked}>
             Contact Us
           </Link>
         </li>
