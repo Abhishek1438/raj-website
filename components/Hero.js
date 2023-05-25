@@ -6,7 +6,7 @@ const Hero = () => {
     <div className={classes.hero}>
       <div className={classes.container}>
         <div className={classes.contact}>
-          <Link href="/Enquire">
+          <Link href="/BasicEnquire">
             <button className={classes.loginButton}>Enquire Now</button>
           </Link>
 
