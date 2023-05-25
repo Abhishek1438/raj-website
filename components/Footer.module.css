@@ -1,0 +1,81 @@
+.footer {
+  display: flex;
+  padding: 1rem;
+  background-color: #797979;
+  justify-content: space-around;
+}
+
+.footer h2 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.footer > div {
+  width: 30%;
+}
+
+.footer .aboutUs p {
+  margin-top: 1rem;
+}
+
+.services div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.services div a::before {
+  content: '> ';
+}
+
+.directContactContainer {
+  max-width: 450px;
+}
+
+/* Location, Phone, Email Section */
+.contactList {
+  list-style-type: none;
+  padding-right: 20px;
+}
+
+.listItem {
+  line-height: 4;
+}
+
+.contactText {
+  letter-spacing: 1.9px;
+}
+
+.place {
+  margin-left: 20px;
+}
+
+.phone {
+  margin-left: 20px;
+}
+
+.gmail {
+  margin-left: 20px;
+}
+
+.contactText a {
+  color: #fff;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contactText a:hover {
+  text-decoration: none;
+}
+
+@media all and (max-width: 900px) {
+  .footer {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer > div {
+    width: 100%;
+  }
+}

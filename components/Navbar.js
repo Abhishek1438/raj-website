@@ -74,7 +74,7 @@ const Navbar = () => {
         </li>
 
         <li className={linksClasses.join(' ')}>
-          <Link href="/Enquire" onClick={hamburgerClicked}>
+          <Link href="/BasicEnquire" onClick={hamburgerClicked}>
             <button className={classes.loginButton}>Enquire Now</button>
           </Link>
         </li>

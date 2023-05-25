@@ -14,6 +14,7 @@
   display: flex;
   gap: 2rem;
   width: 70%;
+  justify-content: center;
 }
 
 .enquire .enquireDetail,
@@ -50,6 +51,31 @@
 
 .serviceDetail h2 {
   font-size: 2rem;
+}
+
+.fullEnquiryContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.getACall,
+.fullEnquiry {
+  background-color: #131418;
+  color: #fff;
+  padding: 1rem 0;
+  width: 15rem;
+  margin: 0 auto;
+  border-radius: 0.5rem;
+}
+
+.fullEnquiry {
+  background-color: #61dafb;
+  color: #131418;
+}
+
+.fullEnquiry:hover,
+.getACall:hover {
+  opacity: 0.8;
 }
 
 @media only screen and (max-width: 1100px) {

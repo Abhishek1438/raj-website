@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import '@/styles/globals.css';
 import dynamic from 'next/dynamic';
 
@@ -8,6 +9,7 @@ export default function App({ Component, pageProps }) {
     <main>
       <Navbar />
       <Component {...pageProps} />
+      <Footer />
     </main>
   );
 }

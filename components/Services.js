@@ -1,5 +1,17 @@
 import classes from './Services.module.css';
 import Link from 'next/link';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faBoxOpen,
+  faBuilding,
+  faCarSide,
+  faHouse,
+  faTruckMoving,
+  faWarehouse,
+  faMapLocationDot,
+  faCartFlatbedSuitcase,
+  faBucket,
+} from '@fortawesome/free-solid-svg-icons';
 
 const Services = () => {
   return (
@@ -11,7 +23,7 @@ const Services = () => {
       </p>
       <div className={classes.servicesGrid}>
         <div className={`${classes.service} ${classes.service1}`}>
-          <i className="ti-bar-chart"></i>
+          <FontAwesomeIcon icon={faBoxOpen} size="lg" />
           <h4>Domestic Shifting</h4>
           <p>
             This service involves the relocation of household or office items within the same
@@ -24,7 +36,7 @@ const Services = () => {
         </div>
 
         <div className={`${classes.service} ${classes.service2}`}>
-          <i className="ti-light-bulb"></i>
+          <FontAwesomeIcon icon={faHouse} size="lg" />
           <h4>Household Shifting</h4>
           <p>
             This service is specifically tailored for individuals or families who are moving their
@@ -37,7 +49,7 @@ const Services = () => {
         </div>
 
         <div className={`${classes.service} ${classes.service3}`}>
-          <i className="ti-money"></i>
+          <FontAwesomeIcon icon={faBuilding} size="lg" />
           <h4>Office Shifting</h4>
           <p>
             Office shifting service helps businesses relocate their office space to a new location.
@@ -50,7 +62,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service1}`}>
-          <i className="ti-money"></i>
+          <FontAwesomeIcon icon={faCarSide} size="lg" />
           <h4>Car Shifting</h4>
           <p>
             Car shifting service is focused on transporting vehicles, such as cars or motorcycles,
@@ -62,7 +74,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service2}`}>
-          <i className="ti-money"></i>
+          <FontAwesomeIcon icon={faTruckMoving} size="lg" />
           <h4>Corporate Shifting</h4>
           <p>
             Corporate shifting service is designed for large-scale corporate relocations, involving
@@ -75,7 +87,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service3}`}>
-          <i className="ti-money"></i>
+          <FontAwesomeIcon icon={faMapLocationDot} size="lg" />
           <h4>Local Shifting</h4>
           <p>
             Local shifting service caters to individuals or businesses relocating within the same
@@ -87,7 +99,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service1}`}>
-          <i className="ti-money"></i>
+          <FontAwesomeIcon icon={faCartFlatbedSuitcase} size="lg" />
           <h4>Storage Shifting</h4>
           <p>
             This service is for individuals or businesses that require temporary or long-term
@@ -100,7 +112,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service2}`}>
-          <i className="ti-money"></i>
+          <FontAwesomeIcon icon={faBoxOpen} size="lg" />
           <h4>Parcel Shifting</h4>
           <p>
             Parcel shifting service focuses on the transportation of smaller items or parcels from
@@ -112,7 +124,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service3}`}>
-          <i className="ti-money"></i>
+          <FontAwesomeIcon icon={faBuilding} size="lg" />
           <h4>Factory Relocation</h4>
           <p>
             Factory relocation service is aimed at businesses or industries that need to move their
@@ -125,7 +137,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service1}`}>
-          <i className="ti-money"></i>
+          <FontAwesomeIcon icon={faWarehouse} size="lg" />
           <h4>Warehousing</h4>
           <p>
             Warehousing service offers storage and inventory management solutions for businesses
@@ -137,7 +149,7 @@ const Services = () => {
           </Link>
         </div>
         <div className={`${classes.service} ${classes.service2}`}>
-          <i className="ti-money"></i>
+          <FontAwesomeIcon icon={faBucket} size="lg" />
           <h4>Bulk/Commercial Movements</h4>
           <p>
             This service is designed for businesses that require large-scale or bulk transportation
